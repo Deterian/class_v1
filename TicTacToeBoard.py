@@ -5,6 +5,7 @@ class TicTacToeBoard:
         self.turn = 1
 
     def new_game(self):
+        self.turn = 1
         self.field = [['-' for _ in range(3)] for _ in range(3)]
 
     def get_field(self):
